@@ -2,9 +2,6 @@
 
 Se trata de un conversor en tiempo real de grados Celsius a Fahrenheit utilizando Tensorflow.js, en base aun modelo entrenado en Python con Tensorflow
 
-## Probar en vivo
-Puedes probar este proyecto en vivo [aquí](https://ringa-tech.com/exportacion/celsius-a-fahrenheit/)
-
 ## Cómo utilizarlo
 
 ### Descargar el repositorio
