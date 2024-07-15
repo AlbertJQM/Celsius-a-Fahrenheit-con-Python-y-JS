@@ -76,6 +76,7 @@
         if (modelo != null) {
           var tensor = tf.tensor1d([parseInt(celsius)]);
           var prediccion = modelo.predict(tensor).dataSync();
+          console.log(prediccion)
           prediccion = Math.round(prediccion, 1);
           document.getElementById("resultado").innerHTML = celsius + " Celsius son " + prediccion + " Fahrenheit!";
         } else {
